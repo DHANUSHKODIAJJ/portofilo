@@ -1,0 +1,161 @@
+*{  
+    
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    cursor: default;
+    font-family: "Montserrat", sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-image: url('/gallery/os.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    overflow-y: hidden;
+    background-position: center;
+    max-height: 100vh;
+
+}
+.spotify{
+    margin: 3%;
+    color: aliceblue;
+    position: relative;
+}
+.spotify img{
+    width: 50px;
+    max-width: 100%;
+}
+.playlist{
+    margin-left: 20%;
+    width: 50%;
+    display: none;
+    position: absolute ;
+
+}
+.sticky {
+    margin: 3%;
+    color: aliceblue;
+}
+.sticky img{
+    width: 50px;
+    max-width: 100%;
+}
+.notepad{
+    display: none;
+    margin: 2%;
+}
+.pad{
+    padding: 1.5rem;
+    margin-left: 30%;
+    position: absolute;
+    color: black;
+    width: 30%;
+    height: 500px;
+    border: 15px solid sienna;
+    /* Add your background pattern here */
+    background-image: linear-gradient(#ffffff 1.1rem, #ccc 1.2rem);
+    background-size: 100% 1.2rem;
+}
+
+.game{
+    margin: 3%;
+    color: aliceblue;
+}
+.game img{
+    width: 50px;
+    max-width: 100%;
+}
+.gamewin{
+    display: none;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 10%;
+    width: 80%;
+    height: 90%;
+    
+}
+
+.setting{
+
+    margin: 3%;
+    color: aliceblue;
+}
+.setting img{
+    width: 50px;
+    max-width: 100%;
+}
+.setpop{
+    display: none;
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 30%;
+    width: 600px;
+    height: 500px;
+    background-color: white;
+    text-align: center;
+    border-radius: 2rem;
+    overflow: scroll;
+    scrollbar-width: none;
+    
+}
+.bgimg{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 1%;
+
+}
+
+.bgimg img{
+    max-width: 100%;
+    border-radius: 2rem;
+    
+}
+
+.day_time {
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 92%;
+    margin-top: 13%;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+
+@media screen and ( max-height: 600px ){
+    body{
+        overflow: hidden;
+        background-image:url('gallery/wallpaper/girl.jpg');
+       }
+       .setpop{
+        width: 500px;
+        height: 320px;
+        margin-top: -30%;
+        margin-left: 30%;
+        
+       }
+       .pad{
+        margin-top: -15%;
+       }
+       .day_time {
+        
+        margin-top: 1%;
+        margin-left: 85%;
+        
+    }
+    .gamewin{
+       
+        margin-top: -25%;
+        margin-left: 13%;
+        width: 80%;
+        height: 90%;
+        
+    }
+}
+  
+
